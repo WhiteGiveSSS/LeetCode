@@ -4,10 +4,11 @@ public class BinarySearchBasic {
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 = {1, 2, 3, 4, 4, 5, 6, 7, 8};
+        int[] array3 = {10};
         int target = 9;
         System.out.println(search(array1, target));
         System.out.println(findLeftBoundary(array2, target));
-        System.out.println(findRightBoundary(array2, target));
+        System.out.println(findRightBoundary(array3, target));
     }
 
     private static int findRightBoundary(int[] array, int target) {
