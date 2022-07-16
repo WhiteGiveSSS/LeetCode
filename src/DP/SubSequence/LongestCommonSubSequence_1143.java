@@ -4,6 +4,7 @@ package DP.SubSequence;
     经典的dp矩阵例题:
         比较两个时构建二维dp数组, dp[i][j]表示item1[i]和item2[j]的比较
         将数据存在内存后, 减少后续数据重复计算
+        新建dp数组时, 大小为n+1, 外面有一圈零
  */
 public class LongestCommonSubSequence_1143 {
     public static void main(String[] args) {
