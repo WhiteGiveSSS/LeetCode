@@ -8,6 +8,7 @@ package DP.ZeroOnePackage;
                           sum(P) - sum(N) = target
             sum(P) + sum(N) + sum(P) - sum(N) = target + sum(P) + sum(N)
                        sum(P) = (target + sum(nums)) / 2
+
  */
 
 public class TargetSum_494 {
