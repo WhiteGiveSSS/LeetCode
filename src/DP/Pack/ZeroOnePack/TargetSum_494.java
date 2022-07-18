@@ -1,4 +1,4 @@
-package DP.ZeroOnePackage;
+package DP.Pack.ZeroOnePack;
 
 /*
     思路一: 正常0-1背包

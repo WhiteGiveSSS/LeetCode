@@ -1,4 +1,4 @@
-package DP.ZeroOnePackage;
+package DP.Pack.ZeroOnePack;
 
 /*
     0-1背包问题指的是有n个物品和容量为j的背包, weight数组中记录了n个物品的重量, 位置i的物品重量是weight[i], 
@@ -15,8 +15,6 @@ package DP.ZeroOnePackage;
 
     DP问题一定要注意for循环的边界条件!!! i = 1 -> i <= length
  */
-
-import java.util.Arrays;
 
 public class PartitionSubsetSum_416 {
     public static void main(String[] args) {

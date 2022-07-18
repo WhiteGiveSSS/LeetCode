@@ -1,4 +1,4 @@
-package DP.ZeroOnePackage;
+package DP.Pack.ZeroOnePack;
 
 /*
     初始化时根据题意来判断, 不一定要初始化
