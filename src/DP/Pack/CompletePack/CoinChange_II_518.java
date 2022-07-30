@@ -7,22 +7,21 @@ import java.util.Arrays;
         和01背包类似, 二维是减去k个物品, 一维是正序
  */
 
-public class CoinChange_322 {
+public class CoinChange_II_518 {
     public static void main(String[] args) {
         int[] coins = {1, 2, 5};
-        int amount = 11;
-        System.out.println(coinChange(coins, amount));
+        int amount = 5;
+        System.out.println(change(amount, coins));
     }
 
-    public static int coinChange(int[] coins, int amount) {
+    public static int change(int amount, int[] coins) {
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, amount + 1);
-        dp[0] = 0;
+        dp[0] = 1;
         for (int coin : coins) {
             for (int i = coin; i <= amount; i++) {
-                dp[i] = Math.min(dp[i - coin] + 1, dp[i]);
+                dp[i] += dp[i - coin];
             }
         }
-        return dp[amount] > amount ? -1 : dp[amount];
+        return dp[amount];
     }
 }
