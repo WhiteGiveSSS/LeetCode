@@ -2,6 +2,12 @@ package DP.StockBuyAndSell;
 
 import java.util.Arrays;
 
+/*
+    股票买卖问题:
+        二维dp数组, 第二维度存股票的状态, 买入, 持股, 卖出等
+        初始化时需要初始化负数的第一只股票买入价格
+ */
+
 public class StockWithCoolDown_309 {
     public static void main(String[] args) {
         int[] prices = {1, 2, 3, 0, 2};
