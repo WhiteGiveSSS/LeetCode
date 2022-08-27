@@ -6,11 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /*
-    回溯:
-        需要列出所有可能 -> for循环, 会有重复的
-        不需要重复 -> 不用for循环, 看是否需要这个数(类似于01背包)
-
-        注意i和curr!!!
+    回溯: 先排序, 然后判断前一个和自己是否相同在去除重复的
  */
 
 public class CombinationSumII_40 {
