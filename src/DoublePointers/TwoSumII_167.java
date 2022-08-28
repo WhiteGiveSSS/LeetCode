@@ -1,4 +1,4 @@
-package DoublePoints;
+package DoublePointers;
 
 import java.util.Arrays;
 

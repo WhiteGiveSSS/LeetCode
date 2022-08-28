@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class BFS_DFS_Iteartion {
+public class BFS_DFS_Iteration {
     public static void main(String[] args) {
         TreeNode root = TreeNode.build(new int[]{2, 1, 3, 5, 4, 6, 7}, 0, 7);
         System.out.println(root);

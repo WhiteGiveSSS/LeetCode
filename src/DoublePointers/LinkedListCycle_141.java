@@ -1,4 +1,4 @@
-package DoublePoints;
+package DoublePointers;
 
 /*
     有向图判断是否有环

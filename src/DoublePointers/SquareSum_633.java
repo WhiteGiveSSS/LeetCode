@@ -1,4 +1,4 @@
-package DoublePoints;
+package DoublePointers;
 
 /*
     给定非负整数c, 使得a2 + b2 = c, 求a和b

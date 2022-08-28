@@ -1,4 +1,4 @@
-package DoublePoints;
+package DoublePointers;
 
 /*
     验证回文子串II, 在可以删除一个字符的条件下判断是否为回文子串
